@@ -4,7 +4,7 @@ import { SiNextdotjs, SiNestjs } from "react-icons/si";
 
 const ExperienceSection = () => {
   return (
-    <section className="max-w-7xl mx-auto text-white py-20">
+    <section id="experience" className="max-w-7xl mx-auto text-white py-20">
       <div className="container mx-auto px-6 max-w-5xl">
       <div className="text-center mb-10">
         <h2 className="text-4xl md:text-5xl font-bold text-yellow-400 mb-5">

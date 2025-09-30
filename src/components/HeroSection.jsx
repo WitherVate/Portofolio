@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <section className="max-w-7xl mx-auto text-white py-24 overflow-hidden">
+    <section id="hero" className="max-w-7xl mx-auto text-white py-24 mb-6 overflow-hidden">
       <div className="container mx-auto px-6 flex flex-col items-center justify-center text-center">
         <div className="max-w-3xl">
           <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
@@ -20,21 +20,6 @@ const HeroSection = () => {
             From sleek personal portfolios to complex business applications, 
             our goal is to turn your ideas into stunning digital realities that stand out online.
           </p>
-
-          <div className="flex gap-4 justify-center">
-            <Link
-              to="/projects"
-              className="bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-yellow-500 hover:scale-105 transform transition"
-            >
-              View Projects
-            </Link>
-            <Link
-              to="/cv"
-              className="border border-yellow-400 px-6 py-3 rounded-xl font-semibold hover:bg-yellow-400 hover:text-black hover:scale-105 transform transition"
-            >
-              Download Profile
-            </Link>
-          </div>
         </div>
       </div>
     </section>

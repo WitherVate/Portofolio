@@ -3,7 +3,7 @@ import { SiNextdotjs, SiNestjs, SiTailwindcss } from "react-icons/si";
 const SkillsSection = () => {
   
   return (
-    <section className="max-w-7xl mx-auto text-white py-20">
+    <section id="skills" className="max-w-7xl mx-auto text-white py-20">
       <div className="container mx-auto max-w-6xl px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
           Skills & <span className="text-yellow-400">Technologies</span>

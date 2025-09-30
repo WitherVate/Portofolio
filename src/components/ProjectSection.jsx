@@ -19,13 +19,13 @@ const ProjectSection = () => {
   };
 
   return (
-    <div className='max-w-7xl mx-auto px-4 py-12 text-white'>
+    <div id='projects' className='max-w-7xl mx-auto px-4 py-12 text-white'>
       <div className='container mx-auto'>
         <h3 className='text-5xl text-yellow-400 font-bold text-center mb-10'>Projects</h3>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
           {items.map((item) => (
-            <div key={item.id} className='bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform'>
+            <div key={item.id} className='bg-gray-800/70 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform'>
               {item.image_url && (
                 <img
                   src={item.image_url}
@@ -55,4 +55,4 @@ const ProjectSection = () => {
   );
 };
 
-export default ProjectSection;
+export default ProjectSection;  

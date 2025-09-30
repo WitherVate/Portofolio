@@ -4,11 +4,10 @@ import gjImage from '../assets/gj.png';
 const AboutSection = () => {
   return (
     <section id="about" className="max-w-7xl mx-auto text-white">
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        
+      <div className="container px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <p className="text-lg text-gray-300 mb-6">
-            I'm a passionate student learning frontend development with a love for creating beautiful,
+            I'm a passionate student learning web development with a love for creating beautiful,
             functional web experiences. My journey in web development started with curiosity and has evolved
             into a dedication to learning how to craft digital solutions that make a difference.
           </p>
@@ -29,7 +28,7 @@ const AboutSection = () => {
               <p className="text-sm text-gray-400">Status</p>
             </div>
             <div>
-              <p className="text-xl font-bold text-purple-400">15+</p>
+              <p className="text-xl font-bold text-purple-400">8+</p>
               <p className="text-sm text-gray-400">Mini Projects</p>
             </div>
             <div>

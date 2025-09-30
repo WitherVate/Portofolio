@@ -163,7 +163,7 @@ const DashboardPage = () => {
           {items.map((item) => (
             <div
               key={item.id}
-              className="bg-white p-4 rounded shadow flex flex-col"
+              className="p-4 rounded shadow flex flex-col"
             >
               {item.image_url && (
                 <img
